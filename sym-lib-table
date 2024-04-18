@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "b402")(type "KiCad")(uri "${KIPRJMOD}/lib/b402.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/lib/ICM-42688-P.kicad_sym")(options "")(descr ""))
+  (lib (name "nrfslime")(type "KiCad")(uri "${KIPRJMOD}/lib/nrfslime.kicad_sym")(options "")(descr ""))
+  (lib (name "tps7a2133pdqnr")(type "KiCad")(uri "${KIPRJMOD}/lib/tps7a2133pdqnr.kicad_sym")(options "")(descr ""))
+)
