@@ -5609,10 +5609,6 @@
 		(uuid "a723f75d-a771-4bd4-ae69-b50629cf9756")
 	)
 	(no_connect
-		(at 27.94 26.67)
-		(uuid "b9c9d1bd-de47-4e1d-863c-a275862483c2")
-	)
-	(no_connect
 		(at 27.94 80.01)
 		(uuid "f17e481b-45d7-4d31-99ae-b6d22100ec9e")
 	)
@@ -9857,7 +9853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_MountingPin"
+		(property "Value" "532610271"
 			(at 139.7 110.8455 0)
 			(effects
 				(font
