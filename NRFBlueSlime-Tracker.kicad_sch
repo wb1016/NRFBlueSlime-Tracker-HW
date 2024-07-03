@@ -5408,6 +5408,28 @@
 			)
 		)
 	)
+	(global_label "KEY"
+		(shape input)
+		(at 93.98 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1252037d-20da-4c24-9b7e-593e2d22a8ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.4728 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWC"
 		(shape bidirectional)
 		(at 166.37 137.16 180)
@@ -7880,7 +7902,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 224.79 148.59 90)
 			(effects
 				(font
@@ -9834,7 +9856,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100k"
 			(at 88.9 181.6099 0)
 			(effects
 				(font
