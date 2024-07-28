@@ -3,4 +3,7 @@
   (lib (name "42688")(type "KiCad")(uri "${KIPRJMOD}/lib/42688.pretty")(options "")(descr ""))
   (lib (name "nrfslime")(type "KiCad")(uri "${KIPRJMOD}/lib/nrfslime.pretty")(options "")(descr ""))
   (lib (name "ISP1507-AX-ST")(type "KiCad")(uri "${KIPRJMOD}/lib/ISP1507-AX-ST.pretty")(options "")(descr ""))
+  (lib (name "MDBT42-512KV2")(type "KiCad")(uri "${KIPRJMOD}/lib/MDBT42-512KV2/MDBT42-512KV2.pretty")(options "")(descr ""))
+  (lib (name "MDBT42")(type "KiCad")(uri "${KIPRJMOD}/lib/MDBT42.pretty")(options "")(descr ""))
+  (lib (name "RT9080")(type "KiCad")(uri "${KIPRJMOD}/lib/RT9080.pretty")(options "")(descr ""))
 )
