@@ -3,4 +3,7 @@
   (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/lib/ICM-42688-P.kicad_sym")(options "")(descr ""))
   (lib (name "nrfslime")(type "KiCad")(uri "${KIPRJMOD}/lib/nrfslime.kicad_sym")(options "")(descr ""))
   (lib (name "ISP1507-AX-ST")(type "KiCad")(uri "${KIPRJMOD}/lib/ISP1507-AX-ST.kicad_sym")(options "")(descr ""))
+  (lib (name "MDBT50Q-1MV2")(type "KiCad")(uri "${KIPRJMOD}/lib/MDBT50Q-1MV2.kicad_sym")(options "")(descr ""))
+  (lib (name "TP4057")(type "KiCad")(uri "${KIPRJMOD}/lib/TP4057.kicad_sym")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/lib/switch.kicad_sym")(options "")(descr ""))
 )
