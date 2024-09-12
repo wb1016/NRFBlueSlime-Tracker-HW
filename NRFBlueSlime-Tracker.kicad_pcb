@@ -12742,6 +12742,66 @@
 		(layer "Edge.Cuts")
 		(uuid "f9bcdf53-4eb1-4243-8dac-f74f9bdaaf0a")
 	)
+	(gr_text "G"
+		(at 73.66 29.718 0)
+		(layer "B.SilkS")
+		(uuid "32678562-c8dc-4379-ba6a-4f3f6d0a6377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D"
+		(at 78.74 29.718 0)
+		(layer "B.SilkS")
+		(uuid "a2739120-9ab5-4363-9f08-0600bbe0cc7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "V"
+		(at 77.47 35.814 0)
+		(layer "B.SilkS")
+		(uuid "a4ea53e2-f1c5-49da-b686-de5051fad0e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "R"
+		(at 76.2 29.718 0)
+		(layer "B.SilkS")
+		(uuid "a61dbdb6-7f04-4019-b475-06a726509678")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "C"
+		(at 81.28 29.718 0)
+		(layer "B.SilkS")
+		(uuid "ae580af4-6df0-46ba-a885-de651d877aac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
