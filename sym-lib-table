@@ -6,4 +6,5 @@
   (lib (name "MDBT50Q-1MV2")(type "KiCad")(uri "${KIPRJMOD}/lib/MDBT50Q-1MV2.kicad_sym")(options "")(descr ""))
   (lib (name "TP4057")(type "KiCad")(uri "${KIPRJMOD}/lib/TP4057.kicad_sym")(options "")(descr ""))
   (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/lib/switch.kicad_sym")(options "")(descr ""))
+  (lib (name "ISP1807-LR-RS")(type "KiCad")(uri "${KIPRJMOD}/lib/ISP1807-LR-RS.kicad_sym")(options "")(descr ""))
 )
