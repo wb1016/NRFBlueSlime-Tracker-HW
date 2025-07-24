@@ -7,4 +7,5 @@
   (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/lib/switch.pretty")(options "")(descr ""))
   (lib (name "TP4057")(type "KiCad")(uri "${KIPRJMOD}/lib/TP4057.pretty")(options "")(descr ""))
   (lib (name "ISP1807-LR-RS")(type "KiCad")(uri "${KIPRJMOD}/lib/ISP1807-LR-RS.pretty")(options "")(descr ""))
+  (lib (name "nrf")(type "KiCad")(uri "${KIPRJMOD}/lib/nrf.pretty")(options "")(descr ""))
 )
