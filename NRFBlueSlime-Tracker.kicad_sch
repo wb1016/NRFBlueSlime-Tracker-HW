@@ -1000,187 +1000,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_MountingPin"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_MountingPin_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3085,8 +2904,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3401A"
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3101,7 +2921,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3401A"
+			(property "Value" "Q_PMOS_GSD"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3110,28 +2930,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 5.08 -3.81 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3140,7 +2948,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "P-Channel MOSFET"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3149,7 +2957,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3158,7 +2966,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO3401A_0_1"
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3302,7 +3110,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -3325,7 +3133,7 @@
 					)
 				)
 			)
-			(symbol "AO3401A_1_1"
+			(symbol "Q_PMOS_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -4244,7 +4052,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nrfslime:EA8103T5R"
+		(symbol "nrfslime:EA8103DHR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4256,7 +4064,7 @@
 					)
 				)
 			)
-			(property "Value" "EA8103T5R"
+			(property "Value" "EA8103DHR"
 				(at 0 5.588 0)
 				(effects
 					(font
@@ -4264,7 +4072,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "nrfslime:DFN-6_L1.5-W1.5-P0.50-BL-EP1.0"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -4273,7 +4081,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410121806_Everanalog-IC-design-EA8103DHR_C5241142.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -4291,10 +4099,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "EA8103T5R_1_1"
+			(symbol "EA8103DHR_1_1"
 				(rectangle
 					(start -6.35 3.81)
-					(end 6.35 -5.08)
+					(end 6.35 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4313,7 +4121,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4331,7 +4139,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4340,7 +4148,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -1.27 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -4349,7 +4157,25 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4367,7 +4193,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4379,6 +4205,25 @@
 					(at 8.89 -1.27 180)
 					(length 2.54)
 					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5171,6 +5016,12 @@
 		(uuid "1887fb3e-f0b6-44db-8411-e4bc28168d14")
 	)
 	(junction
+		(at 43.18 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f93f5df-5a47-4284-9ebb-831a8ed54be7")
+	)
+	(junction
 		(at 76.2 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5189,6 +5040,18 @@
 		(uuid "2c2ad003-ad02-4719-b68f-a59fca3548f3")
 	)
 	(junction
+		(at 49.53 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39249b64-a25b-41bf-9985-4ff063b075a2")
+	)
+	(junction
+		(at 304.8 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b2dbd18-b20a-4965-9377-dc1750abaee9")
+	)
+	(junction
 		(at 279.4 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5199,12 +5062,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c61987b-0a50-4acf-87b4-9241298fbfd3")
-	)
-	(junction
-		(at 49.53 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e726c67-2cce-44ac-be6d-e8cb0a30e81e")
 	)
 	(junction
 		(at 114.3 214.63)
@@ -5219,10 +5076,22 @@
 		(uuid "734a1f5f-3d33-450e-8348-9428161f59bb")
 	)
 	(junction
+		(at 43.18 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770f0a34-9586-4c68-9569-a322e8609342")
+	)
+	(junction
 		(at 55.88 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77f97ad0-e89b-4b4f-8ebf-cee1dc1366dd")
+	)
+	(junction
+		(at 120.65 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eb32daa-39a7-435f-abce-07d533632650")
 	)
 	(junction
 		(at 179.07 114.3)
@@ -5303,22 +5172,10 @@
 		(uuid "d0877ed2-6e0e-4e88-a2e4-d74ada993620")
 	)
 	(junction
-		(at 152.4 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4b8fc3d-db50-4d66-8e45-77337ae57dbc")
-	)
-	(junction
 		(at 163.83 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1af9f2c-2ff8-4310-a3ab-558da5dfdb4d")
-	)
-	(junction
-		(at 120.65 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edcb67f7-7c59-4857-9a27-0cd4c14c19d7")
 	)
 	(junction
 		(at 60.96 210.82)
@@ -5331,12 +5188,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef457e78-3c95-457a-a105-a7492fa406f8")
-	)
-	(junction
-		(at 304.8 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f074aefe-23d6-4eb4-a79e-b5fe00dc9c78")
 	)
 	(junction
 		(at 60.96 203.2)
@@ -5355,12 +5206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa2a14b7-e3b2-4403-8ac4-7fa9d4329621")
-	)
-	(junction
-		(at 44.45 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc455290-a0b1-452e-b7fd-2841b11f6e90")
 	)
 	(no_connect
 		(at 173.99 60.96)
@@ -5443,6 +5288,16 @@
 			(type default)
 		)
 		(uuid "0f69cc41-3676-4850-ba56-4e5faf16faba")
+	)
+	(wire
+		(pts
+			(xy 49.53 247.65) (xy 49.53 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fca886b-2d83-407c-853e-3f9fa2f5e142")
 	)
 	(wire
 		(pts
@@ -5646,23 +5501,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 165.1) (xy 157.48 165.1)
+			(xy 152.4 165.1) (xy 158.75 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a678f38-dc90-4a56-ba8c-46208e0afc00")
-	)
-	(wire
-		(pts
-			(xy 49.53 251.46) (xy 49.53 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a804959-5843-47eb-9fff-57049b591381")
 	)
 	(wire
 		(pts
@@ -5746,6 +5591,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 218.44) (xy 60.96 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae13717-0d95-4000-b5ae-b6d33390a79e")
+	)
+	(wire
+		(pts
 			(xy 279.4 91.44) (xy 279.4 93.98)
 		)
 		(stroke
@@ -5816,6 +5671,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 213.36) (xy 45.72 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638a6ddb-d70d-43c5-81f2-a21839cae5cf")
+	)
+	(wire
+		(pts
 			(xy 109.22 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -5833,6 +5698,16 @@
 			(type default)
 		)
 		(uuid "6752e796-9ed9-4665-8db0-2284512a79c6")
+	)
+	(wire
+		(pts
+			(xy 152.4 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1ec697-cf6c-4fe9-a812-5c9c992af73f")
 	)
 	(wire
 		(pts
@@ -5873,16 +5748,6 @@
 			(type default)
 		)
 		(uuid "75441411-8da7-4b00-ab77-8dec45d1fd4e")
-	)
-	(wire
-		(pts
-			(xy 152.4 160.02) (xy 152.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7934b28e-05cb-40e6-95f6-7579d18ef945")
 	)
 	(wire
 		(pts
@@ -6036,7 +5901,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 203.2) (xy 109.22 203.2)
+			(xy 101.6 203.2) (xy 109.22 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6086,7 +5951,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 212.09) (xy 44.45 218.44)
+			(xy 43.18 213.36) (xy 43.18 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6126,16 +5991,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 218.44) (xy 44.45 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3316dbf-2acf-4bf4-92b0-9ba69f64968d")
-	)
-	(wire
-		(pts
 			(xy 114.3 214.63) (xy 107.95 214.63)
 		)
 		(stroke
@@ -6146,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 203.2) (xy 123.19 203.2)
+			(xy 119.38 203.2) (xy 127 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6386,28 +6241,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_EN"
-		(shape output)
-		(at 27.94 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a3d3247-eb78-4ca6-aa89-64653d0b0c80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 				(justify right)
 				(hide yes)
@@ -7052,6 +6885,28 @@
 			)
 		)
 	)
+	(global_label "~{ADC_EN}"
+		(shape output)
+		(at 27.94 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5eef192-cba9-440e-be96-4d129c5db844")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.8791 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DOCK"
 		(shape output)
 		(at 191.77 119.38 180)
@@ -7391,76 +7246,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 66.04 251.46 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04ef4773-3920-44f7-87a0-5dfe65305ecd")
-		(property "Reference" "LED2"
-			(at 62.23 251.7774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NCD0402R1"
-			(at 62.23 254.3174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 66.04 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 66.04 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7525f96b-e062-46f1-8aac-b776286999a8")
-		)
-		(pin "2"
-			(uuid "70172fef-6341-44e1-b4e2-39af94f4958f")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 252.73 151.13 0)
 		(unit 1)
@@ -7521,6 +7306,76 @@
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05969a4d-ee17-47b6-afd0-c32b19239012")
+		(property "Reference" "C8"
+			(at 67.31 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 67.31 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 64.4652 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75224d7d-b9df-44a2-958f-f812380a1876")
+		)
+		(pin "2"
+			(uuid "377f0acf-8ce2-4e13-80ad-9c818509e6cc")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7684,7 +7539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.84 47.2948 0)
 			(effects
 				(font
@@ -7859,76 +7714,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 115.57 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0858c945-e2f8-40fa-8dac-d7c1716095a5")
-		(property "Reference" "R5"
-			(at 118.11 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 118.11 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 117.348 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52070436-88ec-4db8-870f-b6be74ac707e")
-		)
-		(pin "2"
-			(uuid "e49c203e-9bfd-429f-aca8-74b6370386f2")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 292.1 80.01 0)
 		(unit 1)
@@ -8065,146 +7850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c85f27f-d9e4-4b08-9d33-5092073f1a58")
-		(property "Reference" "C8"
-			(at 67.31 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 67.31 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 64.4652 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 63.5 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "956fb000-fe9a-4eed-8c4e-0dfe5e462207")
-		)
-		(pin "2"
-			(uuid "fef2df74-b789-4996-b192-6a5e956255bd")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d421167-9901-4bff-9a49-9051b845454b")
-		(property "Reference" "C7"
-			(at 52.07 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 52.07 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.2252 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "266b937c-051e-47a2-911f-09a65e3dcaa4")
-		)
-		(pin "2"
-			(uuid "e1af01fa-10e1-4597-b8ea-4b405f572da1")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 57.15 203.2 90)
 		(unit 1)
@@ -8230,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nrfslime:IND-SMD_L3.0-W3.0"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 57.15 203.2 0)
 			(effects
 				(font
@@ -8300,7 +7945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.778 177.8 90)
 			(effects
 				(font
@@ -8337,6 +7982,76 @@
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 304.8 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10c3d85a-378a-4dd7-a390-15543d12e6ad")
+		(property "Reference" "C2"
+			(at 308.61 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 308.61 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 305.7652 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 304.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f19cc839-0f33-482b-a9e5-61495ee33ec0")
+		)
+		(pin "2"
+			(uuid "42a3c92d-52fb-4138-9b7f-01497f94890b")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8744,75 +8459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c3070cf-9233-4d95-80b0-11bed2744396")
-		(property "Reference" "C3"
-			(at 238.76 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 238.76 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 235.9152 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2f30f71-ccc9-4785-8484-03d1b357fa3e")
-		)
-		(pin "2"
-			(uuid "ce2c8f53-5efc-4574-8110-99fdb0deb718")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 83.82 137.16 0)
 		(unit 1)
@@ -9011,73 +8657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 269.24 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29ce9dd5-70d8-465a-b985-59e8bf682572")
-		(property "Reference" "C6"
-			(at 269.24 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220n"
-			(at 269.494 141.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 273.05 143.8148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72ce2e1f-b183-4120-8352-04c39eb7100f")
-		)
-		(pin "2"
-			(uuid "5bcbf8b2-83ee-406a-978d-2f24cab48853")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:PESD5V0L1UL")
 		(at 148.59 88.9 270)
 		(unit 1)
@@ -9149,7 +8728,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 256.54 180)
+		(at 21.59 256.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9158,7 +8737,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aa99cce-c6f1-4483-8f02-0e9ada9b24b5")
 		(property "Reference" "C14"
-			(at 27.94 255.2699 0)
+			(at 25.4 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +8746,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 27.94 257.8099 0)
+			(at 25.4 257.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +8755,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 23.1648 252.73 0)
+			(at 20.6248 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +8764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 256.54 0)
+			(at 21.59 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +8773,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 24.13 256.54 0)
+			(at 21.59 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +8934,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 123.19 203.2 0)
+		(at 127 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9364,7 +8943,7 @@
 		(fields_autoplaced yes)
 		(uuid "3236c8ec-526b-4692-8637-e00160f492f1")
 		(property "Reference" "#PWR042"
-			(at 123.19 207.01 0)
+			(at 127 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +8952,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 123.19 198.12 0)
+			(at 127 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +8960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 203.2 0)
+			(at 127 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,7 +8969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 203.2 0)
+			(at 127 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +8978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 123.19 203.2 0)
+			(at 127 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,6 +9131,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "387d30c9-e42f-4939-9a29-3441b0386476")
+		(property "Reference" "TP8"
+			(at 161.29 160.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 163.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bafee4a5-9fde-4376-a520-003db9ac356c")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 304.8 76.2 0)
 		(unit 1)
@@ -9619,34 +9266,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 255.27 0)
+		(at 114.3 218.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f5dc54a-c1d1-44f8-b501-1a7c948b90b8")
-		(property "Reference" "R10"
-			(at 123.19 253.9999 0)
+		(uuid "40f40875-ecf6-487a-919a-ec7eb753ec4a")
+		(property "Reference" "R8"
+			(at 116.84 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 123.19 256.5399 0)
+			(at 116.84 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.872 255.27 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.078 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +9302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 255.27 0)
+			(at 114.3 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +9311,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 255.27 0)
+			(at 114.3 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,15 +9320,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "41eecdd2-fbf7-4761-a5cd-7f26ad88ddf3")
+			(uuid "9c3d2247-d027-4a60-80c4-db1e640937eb")
 		)
 		(pin "2"
-			(uuid "1fbc596b-dc7e-4f85-8ae0-0baa517e27fb")
+			(uuid "22d9cb4c-cbef-4847-999f-50ede1d7efc9")
 		)
 		(instances
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9713,7 +9360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 37.338 90)
 			(effects
 				(font
@@ -9853,7 +9500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.078 177.8 90)
 			(effects
 				(font
@@ -9921,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 39.878 90)
 			(effects
 				(font
@@ -10056,7 +9703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "nrf:WIRELM-SMD_E73-2G4M08S1C"
+		(property "Footprint" "nrf:E73-2G4M08S1C_nobottom"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -10225,6 +9872,74 @@
 			(project ""
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58a7ce06-7f75-4ba3-afc8-406e9c2c65ed")
+		(property "Reference" "C11"
+			(at 171.45 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220n"
+			(at 171.45 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 175.26 192.0748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36cb4c9d-3872-4a42-9ddb-1301ec2cbfd4")
+		)
+		(pin "2"
+			(uuid "d322c3a5-2465-4f15-8d32-5ccb9c7f5ade")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10429,17 +10144,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 157.48 157.48 0)
+		(lib_id "Device:C")
+		(at 83.82 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5feba269-ad49-4b28-bac3-ce9d611b5fd8")
-		(property "Reference" "J2"
-			(at 160.02 157.8355 0)
+		(uuid "6065f98a-cec6-41d0-a6ca-18074654e1a1")
+		(property "Reference" "C9"
+			(at 87.63 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,8 +10162,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "532610271"
-			(at 160.02 160.3755 0)
+		(property "Value" "1u"
+			(at 87.63 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,8 +10171,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
-			(at 157.48 157.48 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 84.7852 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +10181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 157.48 0)
+			(at 83.82 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10474,28 +10189,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 157.48 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "b737fb2e-4fdf-4057-9316-552172e09e08")
 		)
 		(pin "1"
-			(uuid "818a02fb-8c64-4938-a93e-59f6b3815cad")
+			(uuid "80a2b28a-7be1-45a0-ac09-77302e8acd12")
 		)
-		(pin "MP"
-			(uuid "24d7020f-4187-4c4d-a1bd-9e4f3f725b4e")
+		(pin "2"
+			(uuid "e523a31a-2309-44a6-af8e-97437657f808")
 		)
 		(instances
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "J2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10729,7 +10441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.182 214.63 90)
 			(effects
 				(font
@@ -10797,7 +10509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nrfslime:OSC-SMD_4P-L2.5-W2.0-BL"
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
 			(at 266.7 48.26 0)
 			(effects
 				(font
@@ -10849,76 +10561,6 @@
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68c71aca-1ad9-4240-a5eb-46cd007f56e9")
-		(property "Reference" "R8"
-			(at 116.84 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 116.84 219.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 112.522 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc827207-b3bd-4821-8d78-89bd67ea8c4b")
-		)
-		(pin "1"
-			(uuid "46d27556-ef25-421d-9b0e-f39badd69187")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10996,7 +10638,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 218.44 0)
+		(at 43.18 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11005,7 +10647,7 @@
 		(fields_autoplaced yes)
 		(uuid "7137da54-6052-4add-ae8e-ea9c73d30c29")
 		(property "Reference" "#PWR046"
-			(at 44.45 224.79 0)
+			(at 43.18 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +10656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 223.52 0)
+			(at 43.18 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,7 +10664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 218.44 0)
+			(at 43.18 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,7 +10673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 218.44 0)
+			(at 43.18 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,7 +10682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 218.44 0)
+			(at 43.18 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,6 +10697,76 @@
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 49.53 255.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "798f6dea-5bf4-4aa9-9985-36c18baa6df7")
+		(property "Reference" "LED3"
+			(at 46.482 257.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XL-1608UGC-06"
+			(at 46.482 259.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 49.53 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 49.53 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b95f3e5e-b4c1-426a-bfd4-1c0ce4dff629")
+		)
+		(pin "2"
+			(uuid "521ba14b-a18d-4a8e-917e-383654d05da1")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -11348,76 +11060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 99.06 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83acd058-ffae-4db7-9482-5c4013c59c4c")
-		(property "Reference" "C10"
-			(at 102.87 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 102.87 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 100.0252 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55ed985e-82c2-4d41-9d2a-8c2f58b370c0")
-		)
-		(pin "2"
-			(uuid "0c637553-13eb-4b8a-bed9-d62e824992a5")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 266.7 31.75 0)
 		(unit 1)
@@ -11484,76 +11126,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 304.8 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8912da39-a644-431b-9cb7-79edac087aff")
-		(property "Reference" "C2"
-			(at 308.61 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 308.61 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 305.7652 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 304.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 304.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb691906-bec7-45d5-9310-61fdbbf07c51")
-		)
-		(pin "2"
-			(uuid "43730ca7-b532-4f28-9fb2-9797357f76af")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 49.53 243.84 180)
 		(unit 1)
@@ -11562,7 +11134,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8948af30-1310-4ed5-b2d6-b4624e9108e3")
+		(uuid "8736c681-bd35-4b32-bfcd-5db5a15f514d")
 		(property "Reference" "R9"
 			(at 52.07 242.5699 0)
 			(effects
@@ -11609,15 +11181,153 @@
 			)
 		)
 		(pin "1"
-			(uuid "c17782fc-f934-47b4-85b1-ff875f067715")
+			(uuid "c5c2405f-0731-45c2-91f9-02f1f460a764")
 		)
 		(pin "2"
-			(uuid "d9c29a05-11c0-4703-8144-29d60073b578")
+			(uuid "3ab9f4f9-47ba-4d80-a368-dbb09ea00235")
 		)
 		(instances
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 66.04 251.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "882e4b84-8434-46b7-85b5-0e93733c826f")
+		(property "Reference" "LED2"
+			(at 63.754 248.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XL-1608SURC-06"
+			(at 64.008 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f44f71f-002d-45e0-b1f0-79368d0a94f0")
+		)
+		(pin "2"
+			(uuid "c22302d0-3bbf-4438-9f50-30a9cb446f82")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 269.24 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d285bd4-dd41-4384-9322-bfd47939f1cd")
+		(property "Reference" "C6"
+			(at 269.24 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220n"
+			(at 269.24 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 273.05 143.8148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "377bd75a-08da-4a34-b162-41a8d78dafe4")
+		)
+		(pin "2"
+			(uuid "aaf71635-5980-479b-948a-b16b9e4bb522")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11824,6 +11534,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 120.65 255.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9293ee14-2300-4a98-bc70-1f59dbd0eb6d")
+		(property "Reference" "R10"
+			(at 123.19 253.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 123.19 256.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 122.428 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fffa8d67-0ba5-4992-b352-3d5a43ceaa29")
+		)
+		(pin "2"
+			(uuid "caac7cb6-b7d7-40c0-885e-92d4237149d3")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 304.8 83.82 0)
 		(unit 1)
@@ -11884,6 +11664,76 @@
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 290.83 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95524428-b730-411b-9bd8-c9264e6da60f")
+		(property "Reference" "C5"
+			(at 294.64 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 294.64 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 291.7952 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 290.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17d66d0-b495-456c-adc7-7b57f0825d8a")
+		)
+		(pin "2"
+			(uuid "943e72cb-04cf-4099-a46c-39f789a7390a")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11983,7 +11833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.182 207.01 90)
 			(effects
 				(font
@@ -12558,6 +12408,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 86.36 264.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad51e486-1acc-4150-aecc-a820c90eefb8")
+		(property "Reference" "R12"
+			(at 88.9 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 88.9 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.138 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a018017e-51eb-4e2f-b8db-56aca0b33129")
+		)
+		(pin "2"
+			(uuid "1cf53d9f-1c51-4f7d-9d95-1b3bd1e13c85")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:PESD5V0L1UL")
 		(at 168.91 88.9 270)
 		(unit 1)
@@ -12694,148 +12614,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 49.53 255.27 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aff6a562-b34a-4a04-a6bf-b9c577dc5bc6")
-		(property "Reference" "LED3"
-			(at 45.72 255.5874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NCD0402G1"
-			(at 45.72 258.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 49.53 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 49.53 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91dcc8f8-7b34-40fc-893c-70167ff942ea")
-		)
-		(pin "2"
-			(uuid "553260d9-bd42-433d-b0cb-ef448f4eb92d")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 264.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3887307-64a7-4328-aead-b53a89186c87")
-		(property "Reference" "R12"
-			(at 88.9 262.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 88.9 265.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.138 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97a24d1b-c1a4-4788-9b63-e9333ff2cd32")
-		)
-		(pin "2"
-			(uuid "946c851c-c90f-44a4-aca7-a2e34e757fb7")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 105.41 203.2 0)
+		(at 101.6 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12844,7 +12624,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9169ceb-51af-484f-932e-b21fb2623c51")
 		(property "Reference" "#PWR041"
-			(at 105.41 207.01 0)
+			(at 101.6 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12853,7 +12633,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 105.41 198.12 0)
+			(at 101.6 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,7 +12641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 203.2 0)
+			(at 101.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12870,7 +12650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 203.2 0)
+			(at 101.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12879,7 +12659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 105.41 203.2 0)
+			(at 101.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,7 +12833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NCD0402B1"
+		(property "Value" "XL-1608UBC-04"
 			(at 117.602 147.32 90)
 			(effects
 				(font
@@ -13062,7 +12842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -13248,76 +13028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 120.65 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7726a7a-79c5-4b4b-87c2-af24e37ea246")
-		(property "Reference" "R11"
-			(at 123.19 261.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "51k"
-			(at 123.19 264.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.872 262.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b9ac99b-d7ec-4150-a17f-df352ec0acf0")
-		)
-		(pin "2"
-			(uuid "7ce9c14a-f5d1-40f2-a578-90a9aef74c3d")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 182.88 111.76 0)
 		(unit 1)
@@ -13380,6 +13090,76 @@
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e2d71f-a8b1-482f-9c99-64c0df3c5d8d")
+		(property "Reference" "C10"
+			(at 102.87 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 102.87 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.0252 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9430755f-fa1c-402f-8809-b129ca578da8")
+		)
+		(pin "2"
+			(uuid "53ce1894-b329-404a-934f-15b4e8872ab4")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13633,73 +13413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 171.45 193.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d148d500-1e7d-462e-8f07-ae2fc0ff8ce9")
-		(property "Reference" "C11"
-			(at 171.45 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220n"
-			(at 171.45 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 175.26 192.0748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cb1af36-23f3-4a58-98cf-ca2235eda175")
-		)
-		(pin "2"
-			(uuid "1795bd13-d1cb-4b1b-95ea-8a882cdab722")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 165.1 0)
 		(unit 1)
@@ -13832,6 +13545,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 120.65 262.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8507ca9-a42d-459b-87b3-b13db8e6a719")
+		(property "Reference" "R11"
+			(at 123.19 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "51k"
+			(at 123.19 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 122.428 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a5673e5-52ae-4cc1-b60a-297f5d3e0eb0")
+		)
+		(pin "2"
+			(uuid "400a26bb-73bb-4b90-8635-2b7001711cac")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 53.34 90)
 		(unit 1)
@@ -13857,7 +13640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 52.3748 0)
 			(effects
 				(font
@@ -13924,7 +13707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 42.672 90)
 			(effects
 				(font
@@ -14033,7 +13816,75 @@
 		)
 	)
 	(symbol
-		(lib_id "nrfslime:EA8103T5R")
+		(lib_id "Connector:TestPoint")
+		(at 158.75 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df061aff-fd05-4b42-80d9-ea937e0538f6")
+		(property "Reference" "TP7"
+			(at 161.29 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 163.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d53e9ba-262b-4b67-9225-0a64196095bd")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrfslime:EA8103DHR")
 		(at 44.45 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14050,7 +13901,7 @@
 				)
 			)
 		)
-		(property "Value" "EA8103T5R"
+		(property "Value" "EA8103DHR"
 			(at 44.45 198.12 0)
 			(effects
 				(font
@@ -14058,7 +13909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "nrfslime:DFN-6_L1.5-W1.5-P0.50-BL-EP1.0"
 			(at 44.45 199.39 0)
 			(effects
 				(font
@@ -14067,7 +13918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410121807_Everanalog-IC-design-EA8103T5R_C570859.pdf"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410121806_Everanalog-IC-design-EA8103DHR_C5241142.pdf"
 			(at 44.45 199.39 0)
 			(effects
 				(font
@@ -14100,80 +13951,16 @@
 		(pin "4"
 			(uuid "fd61d4ed-792d-402e-b798-b71bab9c19a0")
 		)
+		(pin "7"
+			(uuid "4e2aad77-93c3-4772-8596-9ad22d3facbc")
+		)
+		(pin "6"
+			(uuid "29d86e13-fb2d-4b52-ad71-a20db38814cb")
+		)
 		(instances
 			(project ""
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e301f1ce-99c6-42fb-8c08-b384a28cd876")
-		(property "Reference" "C9"
-			(at 87.63 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 87.63 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 84.7852 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2282b2df-5eaa-484b-9506-d70241abf212")
-		)
-		(pin "2"
-			(uuid "850249ca-6d1d-421b-8613-c2fc7a7d29bc")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14314,76 +14101,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 290.83 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e846428f-6b7e-4cbc-9a98-74380cfb9bb3")
-		(property "Reference" "C5"
-			(at 294.64 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 294.64 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 291.7952 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 290.83 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6600443-ab5d-4b54-a470-831d1c4d6275")
-		)
-		(pin "2"
-			(uuid "2ce7479c-1a4e-4949-b0bb-9951751d30c3")
-		)
-		(instances
-			(project "NRFBlueSlime-Tracker"
-				(path "/a3567b6c-9e28-4196-8429-29293482e536"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 292.1 83.82 0)
 		(unit 1)
@@ -14450,8 +14167,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 48.26 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea48e236-64a6-4d0b-a448-d864624d9b39")
+		(property "Reference" "C7"
+			(at 52.07 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 52.07 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 49.2252 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cd2b71f-175e-4c65-be0d-1ed36fef3ca4")
+		)
+		(pin "2"
+			(uuid "19c36c74-5264-4c4e-b18a-88a52d349e18")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea6b5a14-7457-4e82-a7ef-8cfc638a9ffe")
+		(property "Reference" "C3"
+			(at 238.76 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 238.76 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 235.9152 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f621e893-4978-4d24-beed-b740f7fad9c6")
+		)
+		(pin "2"
+			(uuid "28ea27f5-0a43-4b27-8522-16ec6180bf69")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
-		(at 24.13 252.73 0)
+		(at 21.59 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14460,7 +14317,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec2ce512-46ab-4cf0-8303-ab6a05108d10")
 		(property "Reference" "#PWR051"
-			(at 24.13 256.54 0)
+			(at 21.59 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14469,7 +14326,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 24.13 247.65 0)
+			(at 21.59 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14477,7 +14334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 252.73 0)
+			(at 21.59 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14486,7 +14343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 252.73 0)
+			(at 21.59 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14495,7 +14352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 24.13 252.73 0)
+			(at 21.59 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,7 +14463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 90.17 40.132 90)
 			(effects
 				(font
@@ -14650,7 +14507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 260.35 0)
+		(at 21.59 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14659,7 +14516,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1afbc02-51bb-4fe3-af3c-8822979f9352")
 		(property "Reference" "#PWR053"
-			(at 24.13 266.7 0)
+			(at 21.59 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14668,7 +14525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 265.43 0)
+			(at 21.59 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14676,7 +14533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 260.35 0)
+			(at 21.59 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14685,7 +14542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 260.35 0)
+			(at 21.59 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14694,7 +14551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 260.35 0)
+			(at 21.59 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +15215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 114.3 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15375,7 +15232,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3401A"
+		(property "Value" "NTS2101PT1G"
 			(at 114.3 199.39 90)
 			(effects
 				(font
@@ -15383,28 +15240,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 116.205 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 118.11 200.66 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 111.76 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+		(property "Datasheet" "~"
+			(at 114.3 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 114.3 205.74 0)
 			(effects
 				(font
@@ -15492,6 +15346,76 @@
 			(project "NRFBlueSlime-Tracker"
 				(path "/a3567b6c-9e28-4196-8429-29293482e536"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe620b49-fb95-4cae-a46e-e5f150fa2e78")
+		(property "Reference" "R5"
+			(at 118.11 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 118.11 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 117.348 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a802fdc-7775-4ad2-bfee-12e5e379cb47")
+		)
+		(pin "2"
+			(uuid "e42c68cf-dd05-437b-8f0b-7ff46e22ba3a")
+		)
+		(instances
+			(project "NRFBlueSlime-Tracker"
+				(path "/a3567b6c-9e28-4196-8429-29293482e536"
+					(reference "R5")
 					(unit 1)
 				)
 			)
