@@ -5,4 +5,5 @@
   (lib (name "TP4057")(type "KiCad")(uri "${KIPRJMOD}/lib/TP4057.kicad_sym")(options "")(descr ""))
   (lib (name "nrf")(type "KiCad")(uri "${KIPRJMOD}/lib/nrf.kicad_sym")(options "")(descr ""))
   (lib (name "bq24040")(type "KiCad")(uri "${KIPRJMOD}/lib/bq24040.kicad_sym")(options "")(descr ""))
+  (lib (name "NPM1100-QDAA-R")(type "KiCad")(uri "${KIPRJMOD}/lib/NPM1100-QDAA-R.kicad_sym")(options "")(descr ""))
 )
