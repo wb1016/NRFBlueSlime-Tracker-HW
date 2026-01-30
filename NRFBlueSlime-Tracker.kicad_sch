@@ -7988,28 +7988,6 @@
 			)
 		)
 	)
-	(global_label "~{ADC_EN}"
-		(shape output)
-		(at 121.92 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2076264e-c405-4cba-bbd2-cc57e1f3a1ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9809 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape output)
 		(at 121.92 113.03 0)
@@ -8120,28 +8098,6 @@
 			)
 		)
 	)
-	(global_label "NPM_~{CHG}"
-		(shape input)
-		(at 121.92 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "474cb30f-0ded-4bb7-838b-dcb6300a98a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.7952 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{LED_CHG}"
 		(shape input)
 		(at 101.6 270.51 270)
@@ -8230,8 +8186,30 @@
 			)
 		)
 	)
+	(global_label "NPM_~{CHG}"
+		(shape input)
+		(at 121.92 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b4e1a15-f028-4601-8912-8c58b34def36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.7952 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NPM_ISET"
-		(shape bidirectional)
+		(shape output)
 		(at 121.92 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8242,7 +8220,7 @@
 		)
 		(uuid "6148d336-cbdb-4b2b-ac66-8d0b5422cd1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.9669 161.29 0)
+			(at 133.8556 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8252,7 @@
 			)
 		)
 	)
-	(global_label "DP"
+	(global_label "DPX"
 		(shape bidirectional)
 		(at 213.36 124.46 90)
 		(fields_autoplaced yes)
@@ -8286,7 +8264,7 @@
 		)
 		(uuid "697aee2a-b9d6-4f15-83d8-fca0ae27a4ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 117.8235 90)
+			(at 213.36 116.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,6 +8604,28 @@
 			)
 		)
 	)
+	(global_label "~{ADC_EN}"
+		(shape output)
+		(at 121.92 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93748a1b-dee0-4c2e-a34a-adcced110cc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9809 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NTC"
 		(shape input)
 		(at 194.31 218.44 90)
@@ -8705,6 +8705,28 @@
 		(uuid "aa99c5f7-6ce4-45ef-8c77-c91bdda1d034")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 374.1881 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape input)
+		(at 121.92 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af826106-25e3-4c34-9a35-987dc43eacd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.236 102.9494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,6 +8868,28 @@
 			)
 		)
 	)
+	(global_label "SCLK"
+		(shape bidirectional)
+		(at 121.92 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2c1f8f8-449e-486e-af25-5fcc9454f870")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.7941 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DN"
 		(shape bidirectional)
 		(at 204.47 151.13 180)
@@ -8925,28 +8969,6 @@
 		(uuid "d215c8cb-3c7b-4e7e-876f-f6d6ae8f47e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 272.0437 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NPM_MODE"
-		(shape bidirectional)
-		(at 121.92 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6e352bc-428e-478b-b30f-1ed2004aeab9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.2369 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +9110,7 @@
 			)
 		)
 	)
-	(global_label "DN"
+	(global_label "DNX"
 		(shape bidirectional)
 		(at 193.04 124.46 90)
 		(fields_autoplaced yes)
@@ -9100,29 +9122,7 @@
 		)
 		(uuid "e55a6ada-8752-4302-b8df-f700921afeca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 117.763 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INT"
-		(shape input)
-		(at 121.92 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5c114a8-d1b0-47c3-93cf-cc151d93058b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.236 105.4894 0)
+			(at 193.04 116.5535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,6 +9167,28 @@
 		(uuid "f4cade86-2d8c-4d45-af01-94afefc594f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.0365 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NPM_MODE"
+		(shape output)
+		(at 121.92 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4d04efe-8561-411b-9507-1dc356580dcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.1256 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14008,7 +14030,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "100n"
 			(at 205.74 88.9 90)
 			(effects
 				(font
@@ -17615,7 +17637,7 @@
 				)
 			)
 		)
-		(property "Value" "GT-USB-7010ASV"
+		(property "Value" "HC-TYPE-C-16P-C10B"
 			(at 209.55 45.72 0)
 			(effects
 				(font
@@ -17623,7 +17645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "nrfslime:USB-C-SMD_HC-TYPE-C-16P-C10B"
 			(at 213.36 66.04 0)
 			(effects
 				(font
