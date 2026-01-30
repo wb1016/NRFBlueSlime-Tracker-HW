@@ -6219,6 +6219,12 @@
 		(uuid "48fda10d-a41c-4fe1-96ad-25bd91f0a70f")
 	)
 	(junction
+		(at 355.6 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4ecf0e-48c6-422d-8bc3-3999406ac60b")
+	)
+	(junction
 		(at 44.45 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6367,12 +6373,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0b625d5-e924-4f4b-b183-afa292f97ffa")
-	)
-	(junction
-		(at 355.6 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd157ac7-6293-4047-a3ce-3c644261ad75")
 	)
 	(junction
 		(at 266.7 203.2)
@@ -14200,15 +14200,15 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 353.06 39.37 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c4a0408-09eb-48c5-88da-965fbbd31dd0")
 		(property "Reference" "Q1"
-			(at 359.41 38.0999 0)
+			(at 359.41 40.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,7 +14217,7 @@
 			)
 		)
 		(property "Value" "YFW2301T"
-			(at 359.41 40.6399 0)
+			(at 359.41 38.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14226,7 +14226,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 358.14 36.83 0)
+			(at 358.14 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
