@@ -29,4 +29,5 @@ fp-info-cache
 *.csv
 
 # production files
-production
+production/
+fabrication-toolkit-options.json
