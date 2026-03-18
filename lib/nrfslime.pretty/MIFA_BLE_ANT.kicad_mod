@@ -92,8 +92,8 @@
 		(uuid "2c5e768c-39ce-47f3-9180-098ce6efbfe2")
 	)
 	(pad "" smd rect
-		(at 0 -2.2)
-		(size 0.5 4.9)
+		(at 0 -2.325)
+		(size 0.5 4.65)
 		(layers "F.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "ee52d877-2998-46b0-9500-b09809f3b866")
